@@ -4,47 +4,49 @@ html,body{
         overflow-x: hidden;
 }
 
-.title-img{
-    width: 30%;
-    position: absolute;
-    text-align:left;
-    
+.title-img {
+    width: 100%; /* Change width to 100% for full-width responsiveness */
+    position: relative; /* Change position to relative */
+    text-align: left; /* Align text to left */
+    padding-right: 0; /* Remove padding-right */
 }
-#title{
+
+#title {
     background-color: #402e4a;
     color: white;
     text-align: center;
-
 }
-.tagline{
-    font-size: 10px;
+
+.tagline {
+    font-size: 100px;
     font-family: Montserrat;
 }
-.container-fluid{
-    padding-bottom:7%;
-    padding-right:15%;
-    padding-left: 15%;
-    height: 60%;
 
+.container-fluid {
+    padding-bottom: 7%;
+    padding-right: 15px; /* Adjust padding-right to add space between content and screen edge */
+    padding-left: 15px; /* Adjust padding-left to add space between content and screen edge */
+    height: auto; /* Change height to auto for dynamic height */
 }
-.navbar{
+
+.navbar {
     padding-bottom: 3.5rem;
     color: black;
     margin-bottom: 5%;
-    
 }
-.navbar-brand{
+
+.navbar-brand {
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.5rem;
-    
 }
-.nav-item{
-    padding: 0 18px;
+
+.nav-item {
+    padding: 0 10px; /* Adjust padding for better spacing */
 }
-.nav-link{
+
+.nav-link {
     font-size: 1.2rem;
     font-family: "Montserrat-Light";
-
 }
 
 
